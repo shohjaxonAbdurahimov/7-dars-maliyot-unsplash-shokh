@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .align-element {
+    @apply mx-auto max-w-4xl;
+  }
+}
+.input{
+  margin-left: -550px;
+  border-color: grey;
+}
+@media screen and (max-width:1100px) {
+  input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.input:hover{
+border: 2px solid grey;
+box-shadow: 0px 0px 5px ;
+cursor: pointer;
+}
+.bottom{
+  margin: auto;
+  width: 285px;
+  padding-left: 15px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+ border-end-end-radius: 10px;
+ border-end-start-radius: 10px;
+}
+.images{
+  width: 285px;
+  height: 300px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.card{
+  width: 1300px;
+  margin: 0 auto;
+}
